@@ -1,0 +1,88 @@
+*{
+    border-radius: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: azure;
+}
+
+div.container{
+    background-color: bisque;
+    padding: 48px;
+    visibility: hidden;
+    margin: 24px;
+
+}
+
+h1{
+    padding: 24px;
+    background-color: burlywood;
+    color: white;
+    border-radius: 8px;
+    margin: 24px
+}
+
+div.row{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8px;
+}
+
+div.collumn{
+    display: flex;
+    flex-direction: column;
+}
+
+div.grid{
+    width: 10px;
+    height: 10px;
+    background: white;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+div.user{
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+    margin: 16px;
+    font-size: large;
+    font-weight: 900;
+    background-color: bisque;
+}
+
+input{
+    width: 70px;
+    height: 40px;
+    text-align: center;
+    font-size: medium;
+}
+
+div.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: large;
+    font-weight: 900;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    font-size: large;
+    background-color:burlywood;
+    border: none;
+    color: white;
+    font-size: large;
+    font-weight: 900;
+}
